@@ -1,30 +1,68 @@
-#red {
-    border-bottom: 100px solid red;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 0;
-    width: 100px; 
-}
-#blue {
-    border-bottom: 100px solid blue;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 0;
-    width: 100px;
+h1 {
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+    font-size: 50px;
 }
 
-#green {
-    border-bottom: 100px solid green;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 0;
-    width: 100px;
 
+.all-colors {
+    display: flex;
+    justify-content: center;
 }
-#yellow {
-    border-bottom: 100px solid yellow;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 0;
-    width: 100px;
+
+
+#colorRed {
+    display:inline;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    background:red;
+}
+#colorRed:hover{
+    background:rgb(204, 67, 67)
+    }
+   
+
+#colorBlue {
+    display:inline;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    background:blue
+}
+#colorBlue:hover{
+    background:rgb(3, 65, 180)
+    }
+   
+#colorGreen {
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    background:green
+}
+#colorGreen:hover {
+    background: rgb(10, 82, 10)
+}
+#colorYellow {
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    line-height:100px;
+    background:yellow
+}
+#colorYellow:hover {
+    background: rgb(102, 102, 9)
+}
+
+#start-button {
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
