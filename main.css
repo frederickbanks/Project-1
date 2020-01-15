@@ -1,68 +1,159 @@
 h1 {
-    font-family: 'Cute Font', cursive;
-    text-align: center;
-    font-size: 50px;
-}
+  font-family: "Cute Font", cursive;
 
+  text-align: center;
+
+  font-size: 50px;
+}
 
 .all-colors {
-    display: flex;
-    justify-content: center;
-}
+  display: flex;
 
+  justify-content: center;
+}
 
 #colorRed {
-    display:inline;
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    background:red;
+  display: inline;
+
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  line-height: 100px;
+
+  background: red;
 }
-#colorRed:hover{
-    background:rgb(204, 67, 67)
-    }
-   
+
+#colorRed:hover {
+  background: rgb(204, 67, 67);
+}
 
 #colorBlue {
-    display:inline;
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    background:blue
+  display: inline;
+
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  line-height: 100px;
+
+  background: blue;
 }
-#colorBlue:hover{
-    background:rgb(3, 65, 180)
-    }
-   
+
+#colorBlue:hover {
+  background: rgb(3, 65, 180);
+}
+
 #colorGreen {
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    background:green
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  line-height: 100px;
+
+  background: green;
 }
+
 #colorGreen:hover {
-    background: rgb(10, 82, 10)
+  background: rgb(10, 82, 10);
 }
+
 #colorYellow {
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    background:yellow
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+
+  line-height: 100px;
+
+  background: goldenrod;
 }
+
 #colorYellow:hover {
-    background: rgb(102, 102, 9)
+  background: rgb(102, 102, 9);
 }
 
 #start-button {
-    align-content: center;
-    align-items: center;
-    text-align: center;
+  align-content: center;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+#turn {
+  text-align: center;
+
+  position: absolute;
+
+  background: #330000;
+
+  color: red;
+
+  font-family: courier;
+
+  font-size: 20px;
+
+  height: 30px;
+
+  width: 50px;
+
+  margin-left: 90px;
+
+  margin-top: 170px;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  line-height: 30px;
+}
+
+.text2 {
+  position: absolute;
+
+  font-family: "Original Surfer", cursive;
+
+  margin-left: 83px;
+
+  margin-top: 197px;
+}
+
+.toggle {
+  margin-left: 20px;
+
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 50% !important;
+
+  font-size: 1.5em;
+
+  background-color: lightgray;
+}
+
+#switches {
+  position: absolute;
+
+  font-family: "Original Surfer", cursive;
+
+  margin-left: 26px;
+
+  margin-top: 110px;
 }
